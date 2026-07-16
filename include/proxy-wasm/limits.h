@@ -21,7 +21,7 @@
 
 // Maximum allowed Wasm memory size.
 #ifndef PROXY_WASM_HOST_MAX_WASM_MEMORY_SIZE_BYTES
-#define PROXY_WASM_HOST_MAX_WASM_MEMORY_SIZE_BYTES (1024 * 1024 * 1024)
+#define PROXY_WASM_HOST_MAX_WASM_MEMORY_SIZE_BYTES (4L * 1024 * 1024 * 1024)
 #endif
 
 // Maximum allowed random_get buffer size. This value is consistent with
